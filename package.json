@@ -1,0 +1,28 @@
+{
+  "name": "@navify-internal/docusaurus-plugin-tag-manager",
+  "version": "2.0.0",
+  "description": "Google Tag Manager plugin for Docusaurus.",
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/navify/docusaurus-plugin-tag-manager.git"
+  },
+  "scripts": {
+    "shipit": "npx np",
+    "test": "echo 'TODO: Figure out how to test this'"
+  },
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^16.8.4 || ^17.0.0",
+    "react-dom": "^16.8.4 || ^17.0.0"
+  },
+  "engines": {
+    "node": ">=10.15.1"
+  },
+  "devDependencies": {
+    "np": "^7.4.0"
+  }
+}
